@@ -12,10 +12,6 @@
 # ```
 
 def rotate (lst, n):
-     return lst[n:] + lst[:n]
-#    if n>=0:
-#        shift_order(lst, n)
-#    else:
-#        shift_order(lst, n)
-#        return lst
+     return reversed (lst[n:] + lst[:n])
+
 print (rotate([1, 2, 3, 4, 5], -2))
