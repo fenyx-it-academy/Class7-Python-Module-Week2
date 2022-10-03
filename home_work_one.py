@@ -19,6 +19,7 @@ def shift(a):
         d=list[:number-1]
         c.extend(d)
         print(c)
+        
 
 shift([1,2,3,4,5])
 

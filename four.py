@@ -2,7 +2,6 @@ num1=int(input())
 num2=int(input())
 num3=int(input())
 
- 
 for i in range(1,num1*num2*num3):    
     if(str(i) == str(i)[::-1]):
         if(i>2):

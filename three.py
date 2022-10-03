@@ -16,5 +16,4 @@ c.extend(a-b)
 sort()
 c.extend(b-a)
 sort()
-
 print(d)
