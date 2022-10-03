@@ -1,0 +1,70 @@
+"""
+Write a program that takes in two words as input and returns a list containing three elements, in the following order:
+-		Shared letters between two words.
+ 	
+-		Letters unique to word 1.
+ 	
+-		Letters unique to word 2.
+
+Each element of the output should have unique letters, and should be alphabetically sorted. Use set operations. The strings will always be in lowercase and will not contain any punctuation.
+
+```
+Example
+Input1>>> "sharp"
+Input2>>> "soap"
+Output>>> ['aps', 'hr', 'o']
+```
+"""
+import functools
+#str = ""
+str_sort = ""
+global final_lst
+final_lst = []
+global lst
+lst = []
+st1 = {}
+st2 = {}
+st3 = {}
+st4 = {}
+st5 = {}
+st6 = {}
+
+def lst_insertion (st6):
+    import functools
+    lst = []
+    str =""
+    lst = list(st6)
+    str = functools.reduce(lambda x,y : x+y, lst) #converts list to string
+   # str_sort = sorted(str)
+
+    str_sort = ''.join(sorted(str))
+
+    final_lst.append(str_sort)
+    ####################################################
+
+
+str1 = input("Enter first word ")
+str2 = input("Enter second word ")
+st1 = set(str1)
+st2 = set(str2)
+
+st6 = st1&st2
+lst = list(st6)
+lst_insertion(lst)
+
+st3 =(st1^st2)
+
+st5 = st3 - st2
+lst = list(st5)
+lst_insertion(lst)
+
+
+st4 = st3 - st1
+st5 = st3 - st2
+lst = list(st4)
+lst_insertion (lst)
+
+
+print(final_lst)
+
+#######################################
