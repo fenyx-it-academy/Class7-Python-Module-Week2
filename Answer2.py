@@ -11,13 +11,21 @@
 # [('a', 4), ('d', 3), ('e', 10), ('f', 2), ('h', 4), ('i', 7), ('l', 3), ('m', 4), ('n', 1), ('o', 4), ('p', 2), ('r', 5), ('s', 10), ('t', 9), ('v', 1), ('w', 4), ('x', 2)]
 # ```
 
-def count_letters(snippet):
-  result = {}  
-  for letter in snippet.lower():    
-    if letter.isalpha() and letter not in result:   
-      result[letter] = snippet.count(letter)
-  return result
 
-snippet_user = input()
 
-print(count_letters(snippet_user))
+
+
+
+string =input("içinde hangi harften kaçtane var : ")
+
+word_dict = {}
+
+for n in string : 
+
+    if n in word_dict :
+      word_dict[n] +=1
+
+    else : 
+      word_dict[n] = 1
+
+print(word_dict)
