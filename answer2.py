@@ -1,5 +1,6 @@
 sentence = input('Please write a sentence: ')
 sentence = sentence.replace(' ', '')
+
 punc = """!()-[]{ };:'"\,<>./?@#$%^&*_~"""
 new_form_sentence = ' '
 dict = {}

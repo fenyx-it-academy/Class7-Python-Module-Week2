@@ -4,6 +4,7 @@ def common(str1, str2):
     list1 = []
     list2 = []
     punc = """!()-[]{ };:'"\,<>./?@#$%^&*_~"""
+    
     for i in str1:
         if i not in punc:
             list1 += i
