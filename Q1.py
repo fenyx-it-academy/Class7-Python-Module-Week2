@@ -21,4 +21,4 @@ def shiftfunction(mylist, mynumber):
 
 
 
-print(shiftfunction([1,2,3,4,5], 2))
+print(shiftfunction([1,2,3,4], 2))
