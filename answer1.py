@@ -15,4 +15,3 @@ list = list(map(int,input('Enter a list?').strip().split()))
 number = int(input('Enter a number?'))
 
 print(rotateArray(list,number))
-

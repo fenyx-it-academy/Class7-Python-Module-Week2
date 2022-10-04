@@ -7,4 +7,3 @@ b = int(input('Please enter a second number: '))
 c = int(input('Please enter last number: '))
 
 print (some_function(a, b, c))
-
