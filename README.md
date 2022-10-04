@@ -1,4 +1,4 @@
-# Class7-Python-Module-Week2
+<!-- # Class7-Python-Module-Week2
 
 ### 1.
 Write a program that takes two inputs; one of them is a list and the other is a number, and returns the list obtained by shifting the elements in the list n places to the right (left) when n is positive (negative). Use wrap-around: if an element is shifted beyond the end of the list, then continue to shift starting at the beginning of the list.
@@ -10,6 +10,9 @@ Output>>> [4, 5, 1, 2, 3]
 Inputs>>> [1, 2, 3, 4, 5], -2
 Output>>> [3, 4, 5, 1, 2]
 ```
+
+
+
 
 
 ### 2.
@@ -50,4 +53,4 @@ Input1>>>  some_function(2, 3, 4)
 Output1>>>  the nearest palindromical prime number less than 24
 Input2>>> some_function(31, 77, 99)
 Output2>>> the nearest palindromical prime number less than 236,313
-```
+``` -->
