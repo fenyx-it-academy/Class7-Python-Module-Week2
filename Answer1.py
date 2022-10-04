@@ -21,10 +21,8 @@
 
 def rotate_function(list, num):
     new_list =[]
-
     for i in range(len(list) - num, len(list)):
         new_list.append(list[i])
-
     for i in range(0, len(list) -num):
         new_list.append(list[i])
 
