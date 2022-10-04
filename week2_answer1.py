@@ -11,7 +11,20 @@
 # Output>>> [3, 4, 5, 1, 2]
 # ```
 
-def rotate (lst, n):
-     return reversed (lst[n:] + lst[:n])
+# def rotate (lst, n):
+#     return lst[n:]+lst[:n]
+    
+# print (rotate([1, 2, 3, 4, 5], 2))
+def shift(lis, n):
+    
+    if 0<n<len(lis):
+        return lis[-1 * n:] + lis[:len(lis) - n]
+    elif -1>n> -1 * len(lis):
+        return lis[len(lis) + n - 1:] + lis[:n - 1]
+    else:
+        return lis
 
-print (rotate([1, 2, 3, 4, 5], -2))
+        
+
+
+print(shift([1, 2, 3, 4, 5], -2))

@@ -14,9 +14,6 @@
 # Input2>>> "soap"
 # Output>>> ['aps', 'hr', 'o']
 # ```
-# def is_anagram(str1, str2):
-#    return sorted(str1) == sorted(str2)
-# print (is_anagram('sharp', 'soap'))
 def Common_Uncommon_Words(str1, str2):
     l1 = []
     l2 = []
