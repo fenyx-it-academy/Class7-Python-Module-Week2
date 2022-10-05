@@ -2,7 +2,7 @@ def palindrome_prime(a,b,c):
     first = 1
     max_value = a * b * c
   
-    for i in range(first,int(max_value*0.5)):
+    for i in range(first,int(max_value)):
         if (str(i) == str(i)[::-1]): #checks if it is palindromical
             if(i>2):
                 for j in range(2,i):
